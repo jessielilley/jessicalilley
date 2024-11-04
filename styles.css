@@ -509,6 +509,11 @@ p a{
     #mobileoverlay {
         display: none;
     }
+
+    .fa-house {
+        display:none;
+    
+    }
 }
 @media (max-width: 1350px) {
     #topstoriescontainer {
@@ -517,6 +522,11 @@ p a{
         min-width: 0;
         position: relative;
         height: 130rem;
+    }
+
+    .fa-house {
+        display:none;
+    
     }
 
     .articlecontainer {
