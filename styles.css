@@ -417,6 +417,8 @@ p a{
     position: absolute;
 }
 
+
+
 .container p {
     color:#424242;
     font-size: 2rem;
@@ -510,10 +512,6 @@ p a{
         display: none;
     }
 
-    .fa-house {
-        display:none;
-    
-    }
 }
 @media (max-width: 1350px) {
     #topstoriescontainer {
@@ -636,7 +634,7 @@ p a{
         position: absolute;
         display: block;
         height: 920rem;
-        width: 80rem;
+        width: 40rem;
         top: 18rem;
         margin: 0;
     }
@@ -927,6 +925,31 @@ p a{
         margin-top: 14%;
         margin-left: 45%;
         margin-right: 5%;
+    }
+
+    #introduction {
+        color: #CD669A;
+        font-family: "Alegreya", serif;
+        font-size: 4rem;
+        margin-top: 5%;
+        margin-left: 30%;
+        width: 100%;
+        position: absolute;
+    }
+    
+    #aboutme {
+        position: absolute;
+        margin-top: none;
+        margin-left: -60%;
+        width: 80rem;
+    }
+
+    #aboutme p {
+        color:#424242;
+        font-size: 2.5rem;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
     }
     
 }
