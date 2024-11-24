@@ -96,6 +96,7 @@ p a{
     position: relative;
     top: 8.125rem;
     width: 115rem;
+    max-width: 1840px;
     margin: auto;
     height: 78rem;
     margin-bottom: 15rem;
@@ -501,7 +502,6 @@ p a{
     object-fit: cover;
     object-position: center;
 }
-
 
 @media (min-width: 1031px){
     .mobilenav {
