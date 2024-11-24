@@ -519,26 +519,12 @@ p a{
     margin-top: 7rem;
 }
 
-.blog-heading {
+.blogheading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
-}
-
-.blog-heading span{
-    color:#7a3658;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 0.9rem;
-}
-
-.blog-heading h3{
-    font-size: 5rem;
-    color: #CD669A;
-    font-weight: 600;
-    margin-top: 0.5rem;
 }
 
 .blog-container {
