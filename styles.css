@@ -58,8 +58,10 @@ p a{
 
 .weblogo {
     position: absolute;
-    left: 56.875rem;
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
 }
 
 .weblogo img {
@@ -322,6 +324,12 @@ p a{
     right: 3.125rem;
     
     
+}
+
+#greencats {
+    position: relative;
+    top: 18.75rem;
+    margin: auto;
 }
 
 .articlecontainer h1 {
