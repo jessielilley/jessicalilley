@@ -624,7 +624,6 @@ p a{
 
     .fa-house {
         display:none;
-    
     }
 
     .articlecontainer {
@@ -1074,5 +1073,9 @@ p a{
     }
     #blog{
         padding:20px;
+    }
+
+    .fa-house {
+        display:none;
     }
 }
