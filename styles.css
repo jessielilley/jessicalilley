@@ -137,6 +137,15 @@ p a{
     margin-bottom: 15rem;
 }
 
+.contact-container {
+    position: relative;
+    top: 7rem;
+    width: 115rem;
+    margin: auto;
+    height: 78rem;
+    margin-bottom: 15rem;
+}
+
 #topstoriestext {
     width: 31.25rem;
     height: 18.75rem;
@@ -437,7 +446,7 @@ p a{
     margin-right: 20%;
 }
 
-.container h2 {
+.contact-container h2 {
     color: #CD669A;
     font-family: "Alegreya", serif;
     font-size: 4rem;
@@ -635,6 +644,13 @@ p a{
     color: white;
 }
 
+.graphic-container{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
 @media (min-width:1200px){
     .weblogo {
         position: absolute;
@@ -661,6 +677,16 @@ p a{
         justify-content: center;
         scale: 0.75;
     }
+    
+    .container {
+        width: 100%;
+        
+    }
+
+    .container p{
+        margin-top: 15%;
+    }
+
 }
 
 @media (min-width:1920px){
@@ -690,6 +716,11 @@ p a{
         align-items: center;
         width: 5%;
     }
+
+    .container p{
+        margin-top: 10%;
+    }
+
 }
 
 @media (min-width:2500px){
@@ -717,6 +748,28 @@ p a{
         grid-auto-flow: row;
         justify-content: center;
         scale: 1;
+    }
+
+    .container {
+        height: 78rem;
+        margin-bottom: 23rem;
+    }
+
+    .contact-container {
+        height: 78rem;
+        margin-bottom: 23rem;
+    }
+
+    .graphic-container {
+        height: 78rem;
+    }
+
+    #comingsoon {
+        margin-top: 20.5rem;
+    }
+
+    .blog-container {
+        margin-bottom:3rem;
     }
 }
 
@@ -752,6 +805,11 @@ p a{
     }
 
     .container {
+        position: relative;
+        height: 130rem;
+    }
+
+    .contact-container {
         position: relative;
         height: 130rem;
     }
@@ -869,22 +927,36 @@ p a{
     }
 
     .articlecontainer {
-        position: absolute;
+        position: relative;
         display: block;
-        height: 920rem;
+        height: 100%;
         width: 80rem;
         top: 18rem;
         margin: 0;
     }
 
     .container {
-        position: absolute;
+        position: relative;
         display: block;
-        height: 920rem;
+        height: 113rem;
         width: 40rem;
         top: 18rem;
         margin: 0;
     }
+
+    .contact-container {
+        position: relative;
+        display: block;
+        height: 113rem;
+        width: 40rem;
+        top: 18rem;
+        margin: 0;
+    }
+
+    .graphic-container{
+        width: 40rem;
+    }
+
 
     .fa-bars {
         position: fixed;
@@ -1176,6 +1248,30 @@ p a{
         margin-right: 5%;
     }
 
+    .contact-container h2 {
+        color: #CD669A;
+        font-family: "Alegreya", serif;
+        font-size: 4rem;
+        margin-top: 3%;
+        margin-left: 15%;
+        position: absolute;
+    }
+
+    #tocontactme {
+        padding-bottom:40px;
+    }
+    
+    .contact-container p {
+        color:#424242;
+        font-size: 2.5rem;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        margin-top: 14%;
+        margin-left: 45%;
+        margin-right: 5%;
+    }
+
     #introduction {
         color: #CD669A;
         font-family: "Alegreya", serif;
@@ -1215,6 +1311,7 @@ p a{
     .footer-container{
         width: 80rem;
         background-color: #CD669A;
+        margin-top: 23rem;
     }
     
     
@@ -1226,7 +1323,7 @@ p a{
         display: flex;
         justify-content: center;
         list-style-type: none;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .footerNav ul li a{
         color:white;
@@ -1249,6 +1346,11 @@ p a{
     .footerBottom p{
         color: white;
         font-size: 2rem;
+    }
+
+    #comingsoon {
+        width: 1000px;
+        margin-top: 33.5rem;
     }
 
 }
