@@ -1353,6 +1353,10 @@ p a{
         margin-top: 33.5rem;
     }
 
+    #blog {
+        margin-left: 4.5%;
+    }
+
 }
 
 @media (max-width: 550px) {
