@@ -740,7 +740,6 @@ p a{
         min-width: 0;
         position: relative;
         height: 100%;
-        background-color: #6387eb;
     }
 
     .fa-house {
@@ -867,7 +866,6 @@ p a{
         top: 18rem;
         min-width: 0;
         width: 80rem;
-        background-color: #6387eb;
     }
 
     .articlecontainer {
