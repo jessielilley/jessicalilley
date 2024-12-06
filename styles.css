@@ -1354,7 +1354,8 @@ p a{
     }
 
     #blog {
-        margin-left: 4.5%;
+        margin-left: 30%;
+        scale: 1;
     }
 
 }
@@ -1363,9 +1364,6 @@ p a{
     .blog-box{
         margin: 20px 10px;
         width: 100%;
-    }
-    #blog{
-        padding:20px;
     }
 
     .fa-house {
