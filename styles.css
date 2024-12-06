@@ -1215,7 +1215,7 @@ p a{
     }
 
     .footer-container{
-        width: 100%;
+        width: 80rem;
         background-color: #CD669A;
     }
     
@@ -1246,6 +1246,7 @@ p a{
         background-color:#7a3658;
         padding: 5px;
         text-align: center;
+        width: 79.35rem;
     }
     .footerBottom p{
         color: white;
