@@ -734,11 +734,13 @@ p a{
 }
 @media (max-width: 1350px) {
     #topstoriescontainer {
+        display: grid;
         grid-template-columns: 3.5rem 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr 1fr 3rem;
         grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr;
         min-width: 0;
         position: relative;
-        height: 130rem;
+        height: 100%;
+        background-color: #6387eb;
     }
 
     .fa-house {
@@ -836,16 +838,36 @@ p a{
         margin-top: 15rem;
     }
 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+
+    .footer-container{
+        width: 100%;
+        background-color: #CD669A;
+        margin-top: auto;
+    }
+    
+
+
 }
 
 @media (max-width: 1030px) {
     #topstoriescontainer {
-        position: absolute;
+        position: relative;
         display: block;
         height: 790rem;
+        min-height: 100vh;
         top: 18rem;
         min-width: 0;
         width: 80rem;
+        background-color: #6387eb;
     }
 
     .articlecontainer {
@@ -1191,9 +1213,43 @@ p a{
         text-align: center;
         margin: 10px;
     }
-    .socialIcons a{
-        padding: 8px;
-        margin: 4px;
+
+    .footer-container{
+        width: 100%;
+        background-color: #CD669A;
+    }
+    
+    
+    .footerNav{
+        margin-top: 30px;
+        padding: 40px;
+    }
+    .footerNav ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin-top: 50px;
+    }
+    .footerNav ul li a{
+        color:white;
+        margin: 20px;
+        text-decoration: none;
+        font-size: 3rem;
+        opacity: 0.7;
+    
+    }
+    .footerNav ul li a:hover{
+        opacity: 1;
+    }
+    
+    .footerBottom{
+        background-color:#7a3658;
+        padding: 5px;
+        text-align: center;
+    }
+    .footerBottom p{
+        color: white;
+        font-size: 2rem;
     }
 
 }
