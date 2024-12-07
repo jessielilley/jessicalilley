@@ -795,10 +795,6 @@ p a{
         height: 100%;
     }
 
-    .fa-house {
-        display:none;
-    }
-
     .articlecontainer {
         position: relative;
         height: 130rem;
@@ -961,7 +957,7 @@ p a{
     .fa-bars {
         position: fixed;
         color: #CD669A;
-        left: 90px;
+        right: 90px;
         top: 50px;
         z-index: 4;
     }
@@ -1021,11 +1017,16 @@ p a{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 15%;
+        width: 13%;
     }
 
     .fa-house {
-        display:none;
+        position: fixed;
+        color: #CD669A;
+        left: 90px;
+        top: 57px;
+        z-index: 4;
+        font-size: 3rem;
     
     }
 
@@ -1364,10 +1365,6 @@ p a{
     .blog-box{
         margin: 20px 10px;
         width: 100%;
-    }
-
-    .fa-house {
-        display:none;
     }
 
     .footerNav ul{
