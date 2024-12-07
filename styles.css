@@ -1025,9 +1025,9 @@ p a{
         position: fixed;
         color: #CD669A;
         left: 90px;
-        top: 30px;
+        top: 62px;
         z-index: 4;
-        font-size: 5rem;
+        scale: 2;
     
     }
 
